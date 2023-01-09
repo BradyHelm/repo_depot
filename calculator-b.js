@@ -60,3 +60,5 @@ function updateMonthly(monthly) {
   monthlyUI.innerText = "$" + monthly;
 }
 console.log(updateMonthly)
+
+// hi
