@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    text-align:center
+
+
+}
+H1 {
+    text-align: Center;
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+
+}
+h3 {
+   text-align: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+form {
+    display: inline-block;
+
+
+}
+#search-box{
+    padding: 11px;
+    border-radius: 10px;
+}
+#search-button{
+    background-color: springgreen;
+    width: 125px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: darkgray
+   
+}
+#remove{
+    background-color: rgb(175, 58, 58);
+    padding: 10px;
+    color: white; 
+    width: 125px;
+    border-radius: 10px;
+    border-color: darkgray
+}
