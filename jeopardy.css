@@ -1,0 +1,21 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+table{
+  background-color: blue;
+  
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(6, 2fr);
+  
+}
+thead {
+  background-color: blue;
+}
+tbody{
+  background-color: blue;
+}
