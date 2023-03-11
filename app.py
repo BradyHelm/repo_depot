@@ -1,17 +1,36 @@
-from flask import Flask
+# Put your app in here.
+
+from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/welcome')
-def welcome():
-    return 'welcome'
+@app.rout('/add')
+def add():
+    a = request.args.get('a', type=int)
+    b = request.args.get('b', type=int)
+    result = add(a, b)
+    return f'{result}'
 
 
-@app.route('/welcome/back')
-def welcome_back():
-    return 'welcome back'
+@app.rout('/sub')
+def sub():
+    a = request.args.get('a', type=int)
+    b = request.args.get('b', type=int)
+    result = add(a, b)
+    return f'{result}'
 
 
-@app.route('/welcome/home')
-def welcome_home():
-    return 'welcome home'
+@app.rout('/mult')
+def mult():
+    a = request.args.get('a', type=int)
+    b = request.args.get('b', type=int)
+    result = add(a, b)
+    return f'{result}'
+
+
+@app.rout('/div')
+def div():
+    a = request.args.get('a', type=int)
+    b = request.args.get('b', type=int)
+    result = add(a, b)
+    return f'{result}'
